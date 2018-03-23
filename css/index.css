@@ -1,2 +1,140 @@
 @charset "UTF-8";
+/* public */
+.bg_base{
+	background: url(https://cdn11.mei.com/images/base_z.png) no-repeat;
+}
+/*<!-- header S -->*/
+#header{
+	background-color: #f0f0f0;
+}
+#header .header{
+	padding:9px 0;
+	line-height: 1;
+	font-size: 12px;
+}
+#header .header a{
+	padding:0 22px;
+	border-left:1px solid #333;
+}
+#header .header a:first-child{
+	border-left:none;
+}
+#header .header_left .gift{
+	color:red;
+	background: url("../images/zhuceyouli.gif") no-repeat left center;
+}
+#header .header_right{
+	margin-right:80px;
+}
+#header .header_right .app_ewm{
+	top:24px;
+	left:0;
+	width: 100px;
+	padding:5px 10px 5px;
+	box-shadow: 0 0 5px #999;
+	display:none;
+}
+#header .header_right .app_ewm img{
+	margin-bottom:5px;
+}
+#header .header_right .app:hover .app_ewm{
+	display: block;
+}
+#header .header_right .xinlang{
+	margin-top: -4px;
+	color:inherit;
+}
+/* hvoer */
+#header .header a:hover{
+	color:#db2726;
+}
+/*<!-- E header -->*/
+/*<!-- logo S -->*/
+#logo .logo_main,
+#logo .logo_slogan{
+	width:205px;
+	height:90px;
+}
+#logo .logo_main{
+	background-position: -853px -295px;
+}
+#logo .logo_slogan{
+	background-position: -889px -74px;
+}
+/* <!-- E logo --> */
 
+/*<!-- nav S -->*/
+#nav .nav .nav_list li>a{
+	color:#fff;
+	line-height: 42px;
+}
+#nav .nav .nav_list .cur,
+#nav .nav .nav_list a:hover{
+	color:#db2726;
+}
+#nav{
+	background-color: #000;
+}
+#nav .nav .nav_list li{
+	position:relative;
+	margin-right: 50px;
+}
+#nav .nav .nav_list .new_icon::before{
+	content:'';
+	position:absolute;
+	left:100%;
+	top:0;
+	width:32px;
+	height:18px;
+	background: url(https://cdn11.mei.com/images/silo-icon.png) no-repeat;
+}
+#nav .nav .nav_list .nav_submenu{
+	left:0;
+	top:100%;
+	padding:10px 0;
+	box-shadow: 0 0 6px #ddd;
+	display:none;
+}
+#nav .nav .nav_list .nav_submenu.db_w{
+	width:630px;
+}
+#nav .nav .nav_list li:hover .nav_submenu{
+	display: block;
+}
+#nav .nav .nav_list .nav_submenu dl{
+	width: 274px;
+	padding:0 20px;
+}
+#nav .nav .nav_list .nav_submenu dl:nth-child(2){
+	border-left:1px solid #aaa;
+}
+#nav .nav .nav_list .nav_submenu dt{
+	font-size: 14px;
+	font-weight: 600;
+	line-height: 46px;
+	border-bottom:1px solid #aaa;
+}
+#nav .nav .nav_list .nav_submenu dd{
+	margin-top: 8px;
+	font-size: 12px;
+}
+#nav .nav .shopping{
+	color:#fff;
+	line-height: 42px;
+}
+#nav .nav .shopping .shopping_icon{
+	width:24px;
+	height:42px;
+	background-position: -1017px -219px;
+	text-align:center;
+}
+#nav .nav .shopping .shopping_icon i{
+	display: block;
+	font-size:12px;
+}
+#nav .nav .shopping .shopping_cost{}
+
+#nav .nav .shopping .shopping_cost::before{
+	content:'￥';
+}
+/* <!-- E nav --> */

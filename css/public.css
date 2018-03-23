@@ -2,7 +2,7 @@
 /* 重置样式 */
 body,p,ul,dl,dt,dd,li,h1,h2,h3,h4,input{margin:0;padding:0;}
 li{list-style: none;}
-body{font:14px/1.5 'Microsoft yahei';color:#888;}
+body{font:14px/1.5 'Microsoft yahei';color:#333;}
 a{text-decoration:none;color:inherit;}
 h1,h2,h3,h4,h5,h6,b,strong{font-weight:normal;font-size:100%;}
 i,em{font-style:normal;}
@@ -40,6 +40,9 @@ img{vertical-align:top;}
 	overflow:hidden;
 	white-space: nowrap;
 	text-overflow: ellipsis;
+}
+.t_center{
+	text-align:center;
 }
 /* 图片处理 */
 .img_cover img{
