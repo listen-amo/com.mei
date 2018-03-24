@@ -30,7 +30,7 @@ img{vertical-align:top;}
 }
 
 /* 定位 */
-.p-relative{position: relative;}
+.p-relative,.p-relative{position: relative;}
 .p-absolute{position: absolute;}
 /* 块级特性 */
 .d-block{display: block;}

@@ -93,6 +93,7 @@
 	top:100%;
 	padding:10px 0;
 	box-shadow: 0 0 6px #ddd;
+	background-color: #fff;
 	display:none;
 }
 #nav .nav .nav_list .nav_submenu.db_w{
@@ -124,7 +125,6 @@
 }
 #nav .nav .shopping .shopping_icon{
 	width:24px;
-	height:42px;
 	background-position: -1017px -219px;
 	text-align:center;
 }
@@ -132,9 +132,148 @@
 	display: block;
 	font-size:12px;
 }
-#nav .nav .shopping .shopping_cost{}
+#nav .nav .line{
+	float:left;
+	width:0;
+	height:16px;
+	border-right: 2px solid #fff;
+	margin:14px 16px 0;
+}
+#nav .nav .shopping .shopping_cost{
+	
+}
 
 #nav .nav .shopping .shopping_cost::before{
 	content:'￥';
 }
 /* <!-- E nav --> */
+
+/* banner S */
+#banner .banner .banner_wrap img{
+	display:block;
+	width:1800px;
+	height:524px;
+	margin-left:-400px;
+}
+/* E banner */
+
+/* main S */
+body{
+	background-color: #efefefcc;
+}
+#main{
+	position:relative;
+	z-index: 10;
+	width:1040px;
+	margin-top:-100px;
+	background-color: #efefefcc;
+	box-shadow: 0 0 6px #ddd;
+}
+#main .main_item{
+	padding-top: 20px;
+}
+#main .main_item .item_title{
+	margin:0 0 10px 20px;
+	line-height: 1;
+
+}
+#main .main_item .item_title::before{
+		content:'[';
+		margin-right:10px;
+}
+#main .main_item .item_title::after{
+	content:']';
+		margin-left:10px;
+}
+#main .main_item .item_title{
+	font-size: 24px;
+}
+#main .main_item .con_list li{
+	width: 320px;
+	background-color: #eee;
+	margin:0 0 20px 20px;
+}
+#main .main_item .con_list .item_img{
+	position:relative;
+	height:190px;
+	overflow:hidden;
+	border:1px solid red;
+}
+#main .con_list li .item_img img{
+	transition:1s;
+}
+#main .main_item .con_list .img_shade{
+	position:absolute;
+	left:0;
+	top:0;
+	width:100%;
+	height:100%;
+	background-color: #0008;
+	font:14px/192px "Microsoft yahei";
+	text-align:center;
+	color:#fff;
+	display: none;
+}
+#main .main_item .con_list li:hover .img_shade{
+	display: block;
+}
+#main .con_list li:hover .item_img img{
+	transform:scale(1.2);
+}
+#main .con_list .item_desc{
+	height:41px;
+	padding:0 8px;
+	font-size: 12px;
+	line-height: 40px;
+	overflow: hidden;
+}
+#main .con_list .desc_left{
+	width: 180px;
+}
+#main .con_list .desc_right{
+	color:#db2726;
+	font-size: 18px;
+}
+#main .con_list .item_desc .suffix_1::after,
+#main .con_list .item_desc .suffix_2::after{
+	font-size: 14px;
+}
+#main .con_list .item_desc .suffix_1::after{
+	content:'折';
+}
+#main .con_list .item_desc .suffix_2::after{
+	content:'折起';
+}
+
+#main .con_list .list_first .item_img{
+	height:484px;
+	background: url(https://cdn11.mei.com/images/home/home_silo_banner.jpg) no-repeat;
+}
+#main .con_list .list_first .first_desc{
+	width:217px;
+	margin:300px auto 0;
+	text-align: center;
+}
+#main .con_list .list_first .desc_title{
+	height:74px;
+	background: url(https://cdn11.mei.com/images/home/home_silo_title.png) no-repeat center;	
+}
+#main .con_list .list_first .desc_nav{
+	margin-top:8px;
+	padding:10px;
+	border:1px solid #000;
+	border-width:1px 0;
+}
+#main .con_list .list_first .desc_nav a{
+	display: inline-block;
+	margin-left:10px;
+}
+
+#women .con_list .list_first .item_img{
+	background-position: 0 0;
+}
+#women .con_list .list_first .desc_title{
+	background-position-y: 0;	
+}
+
+/* E main */
